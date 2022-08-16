@@ -12,3 +12,43 @@
 h1 {
   text-align: center;
 }
+
+.main-buttom{
+  display: flex;
+}
+
+.button-row{
+  display: flex;
+}
+
+.main > .main-buttom >.action-butoom > .buttom-row{
+  display: flex;
+  flex-direction: column;
+}
+
+.button-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8em;
+  height: 4em;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.button-item:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8em;
+  height: 4em;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.button-item:active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8em;
+  height: 4em;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: rgba(0, 0, 0, 0.50);
+}
