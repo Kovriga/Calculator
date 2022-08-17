@@ -19,9 +19,16 @@ h1 {
 
 .button-row{
   display: flex;
+  flex-wrap: wrap;
+  width: 24em;
 }
 
 .main > .main-buttom >.action-butoom > .buttom-row{
+  display: flex;
+  flex-direction: column;
+}
+
+.action-buttom > .button-row {
   display: flex;
   flex-direction: column;
 }
@@ -51,4 +58,14 @@ h1 {
   height: 4em;
   border: 1px solid rgba(0, 0, 0, 0.12);
   background-color: rgba(0, 0, 0, 0.50);
+}
+
+.meaning{
+  margin: 3em auto;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  width: 41em;
+}
+
+.meaning > h3 {
+  text-align: center;
 }
